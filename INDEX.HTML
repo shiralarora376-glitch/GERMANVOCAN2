@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netzwerk neu A1 — Complete Dictionary All 12 Chapters</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+    <div class="logo">Netzwerk neu A1 · Glossar Deutsch–Englisch</div>
+    <div class="title">Complete Dictionary — All 12 Chapters, Every Word</div>
+    <input id="sb" type="text" placeholder="Search German or English… e.g. Arzt, breakfast, schreiben, Kap 3" oninput="go()">
+    <div class="tabs">
+        <button class="tab on" onclick="T('all',this)">All</button>
+        <button class="tab" onclick="T('k1',this)">Kap 1 · Guten Tag!</button>
+        <button class="tab" onclick="T('k2',this)">Kap 2 · Freunde</button>
+        <button class="tab" onclick="T('k3',this)">Kap 3 · Hamburg</button>
+        <button class="tab" onclick="T('k4',this)">Kap 4 · Appetit!</button>
+        <button class="tab" onclick="T('k5',this)">Kap 5 · Familie</button>
+        <button class="tab" onclick="T('k6',this)">Kap 6 · Freunden</button>
+        <button class="tab" onclick="T('k7',this)">Kap 7 · Arbeitsalltag</button>
+        <button class="tab" onclick="T('k8',this)">Kap 8 · Gesund</button>
+        <button class="tab" onclick="T('k9',this)">Kap 9 · Wohnung</button>
+        <button class="tab" onclick="T('k10',this)">Kap 10 · Beruf</button>
+        <button class="tab" onclick="T('k11',this)">Kap 11 · Jacke!</button>
+        <button class="tab" onclick="T('k12',this)">Kap 12 · Urlaub!</button>
+        <button class="tab" onclick="T('expr',this)">💬 Phrases</button>
+        <button class="tab" onclick="T('vfam',this)">🔗 Verb Families</button>
+    </div>
+</header>
+<div class="main">
+    <div id="ct"></div>
+    <div id="grid"></div>
+</div>
+
+<script src="data.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
